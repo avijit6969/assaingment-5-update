@@ -85,9 +85,6 @@ function applyCoupon() {
   }
 }
 
-const buyTicketBtn = document.getElementById('buyTicketBtn');
-
-buyTicketBtn.addEventListener('click', function(){
-  this.classList.toggle('buyTicket');
-  console.log('clicked')
-})
+document.getElementById('buyTicketBtn').addEventListener('click', function() {
+  document.getElementById('buyTicket').scrollIntoView({ behavior: 'smooth' });
+});

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +12,7 @@
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/621d712608.js" crossorigin="anonymous"></script>
 </head>
+
 <body class="font-raleway">
     <nav class="max-w-7xl mx-auto">
         <div class="navbar bg-base-100">
@@ -25,32 +27,18 @@
                     </div>
                     <ul tabindex="0"
                         class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                        <li><a>Item 1</a></li>
-                        <li>
-                            <a>Parent</a>
-                            <ul class="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                            </ul>
-                        </li>
-                        <li><a>Item 3</a></li>
+                        <li><a>Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a>Destination</a></li>
                     </ul>
                 </div>
-                <a class="btn btn-ghost text-xl">daisyUI</a>
+                <a class="btn btn-ghost text-xl">Dola Paribahan</a>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal px-1">
-                    <li><a>Item 1</a></li>
-                    <li>
-                        <details>
-                            <summary>Parent</summary>
-                            <ul class="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                            </ul>
-                        </details>
-                    </li>
-                    <li><a>Item 3</a></li>
+                    <li><a>Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a>Destination</a></li>
                 </ul>
             </div>
             <div class="navbar-end ">
@@ -67,7 +55,8 @@
                 <div class="max-w-md">
                     <h1 class="mb-5 text-5xl font-bold">End-to-End Travel with <br> <span class="text-[#1DD100]">DOLA
                             Paribahan</span></h1>
-                    <p class="mb-5">"Elevate Your Experience with Exclusive Deals, Captivating Events, and Seamless Ticket Sales – Your Gateway to Unforgettable Moments and Unbeatable Offers."</p>
+                    <p class="mb-5">"Elevate Your Experience with Exclusive Deals, Captivating Events, and Seamless
+                        Ticket Sales – Your Gateway to Unforgettable Moments and Unbeatable Offers."</p>
                     <button id="buyTicketBtn" class="btn bg-[#1DD100] border-0 text-white">Buy Tickets</button>
                 </div>
             </div>
@@ -114,7 +103,8 @@
         <section id="buyTicket" class="bg-[#F7F8F8] mt-20">
             <div class="max-w-7xl mx-auto">
                 <h1 class="text-center text-4xl font-bold pt-20 pb-2">DOLA Paribahan</h1>
-                <p class="text-center pb-16">"Your Premier Destination for Exclusive Deals, Events, and Ticket Sales."</p>
+                <p class="text-center pb-16">"Your Premier Destination for Exclusive Deals, Events, and Ticket Sales."
+                </p>
                 <div class="flex flex-col lg:flex-row bg-white p-10 rounded-2xl mb-6">
                     <div class="lg:w-3/4 space-y-4">
                         <div class="flex justify-between">
@@ -261,7 +251,8 @@
                                 <input id="coupon" class="w-full py-4 px-3 text-xl rounded-lg" type="text"
                                     placeholder="Have any coupon?">
                                 <div class="absolute right-1 top-1">
-                                    <button  onclick="applyCoupon()"  id="applyBtn" class="btn bg-[#1DD100] text-lg text-white" disabled>Apply</button>
+                                    <button onclick="applyCoupon()" id="applyBtn"
+                                        class="btn bg-[#1DD100] text-lg text-white" disabled>Apply</button>
                                 </div>
                             </div>
                             <!-- Grand Total  -->
@@ -291,19 +282,22 @@
                             </div>
                         </div>
 
-            
+
 
                         <!-- modal -->
                         <!-- You can open the modal using ID.showModal() method -->
-                        <button class="btn w-full py-4 text-lg bg-[#1DD100] text-white font-bold rounded-lg" onclick="my_modal_3.showModal()">Next</button>
+                        <button class="btn w-full py-4 text-lg bg-[#1DD100] text-white font-bold rounded-lg"
+                            onclick="my_modal_3.showModal()">Next</button>
                         <dialog id="my_modal_3" class="modal">
                             <div class="modal-box text-center flex flex-col justify-center items-center">
                                 <img src="images/success.png" alt="">
                                 <h1 class="text-green-800 text-2xl">Success</h1>
                                 <h3 class="font-bold text-lg">Hello!</h3>
-                                <p class="py-4">"Discover the latest trends and insights on Seba Grinline. Explore innovative ideas and stay updated with our exciting content."</p>
+                                <p class="py-4">"Discover the latest trends and insights on Seba Grinline. Explore
+                                    innovative ideas and stay updated with our exciting content."</p>
                                 <form method="dialog">
-                                    <button class="btn rounded-full w-72 text-white text-2xl bg-green-800">Continue</button>
+                                    <button
+                                        class="btn rounded-full w-72 text-white text-2xl bg-green-800">Continue</button>
                                 </form>
                             </div>
                         </dialog>
@@ -341,6 +335,7 @@
         </div>
     </footer>
     <script src="scripts/utility.js"></script>
-    <script src="scripts/ticket.js"></script>  
+    <script src="scripts/ticket.js"></script>
 </body>
+
 </html>
